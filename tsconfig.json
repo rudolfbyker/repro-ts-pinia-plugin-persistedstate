@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "noUncheckedIndexedAccess": true,
+    "isolatedModules": true,
+    "importsNotUsedAsValues": "error",
+    "types": [
+      "node",
+      "vite/client",
+    ],
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "coverage",
+    "dist",
+    ".yarn",
+    "public",
+  ],
+  "vueCompilerOptions": {
+    "target": 2.7
+  }
+}
